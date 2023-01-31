@@ -1,0 +1,79 @@
+
+
+body {
+    height: 100%;
+    background-image: url("{% static 'i.jpg'%}");
+    background-size: 100hv;
+    background-attachment: fixed;
+    /* background-image: url("{% static  'img/i.jpg' %}");
+    background-size: 100vh;
+    background-attachment: fixed; */
+    /* height: 100px;
+    width: 100px; */
+    /* background-image: url('i.jpg');
+    background-size: no-repeat; /* неповторяемость изображения
+    background-position: center;
+    background-size: cover; /* сохранение пропорций картинки 
+    height: 100%;
+    width: 100%; */
+
+	/* background-color: #77e0c797; */
+    text-align: center;
+    width: 100%;
+}
+
+h3 {
+    font-size: 5vw;
+    color: #263ec4;
+}
+
+#b1 {
+  font-size: 1.33vw;
+  background: #e7ef10;
+  height: 6vw;
+  width: 6vw;
+  border-radius: 100%;
+  color: #d91f1f
+}
+
+#a1 {
+    font-size: 2.6vw;
+    background:  #77e0c797;
+    height: 6vw;
+    width: 21vw;
+    border-radius: 55%;
+    color: black;
+    text-align: center;
+  }
+
+p {
+    font-size: 3vw; 
+    color: #263ec4
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    background: #23041979;
+    height: 55px;
+    width: 99.9999%;
+}
+
+#s2, #s3, #p1 {
+    font-size: 2vw;
+}
+
+#s3 {
+    font-size: 3vw;
+}
+
+#memory {
+    height: 0px;
+    width: 0px;
+    border: 1px;
+    font-size: 1px;
+}
+
+#mempy {
+    font-size: 1px;
+}
