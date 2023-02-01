@@ -4,7 +4,7 @@ from django.urls import include
 # (функция необходимая при множественном ветвлении адресов)
 
 from start.views import index
-from office.views import index2
+# from office.views import index2
 from collection.views import index3
 
 urlpatterns = [
